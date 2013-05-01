@@ -1,0 +1,33 @@
+:insert
+
+#! /usr/bin/env python
+
+'''
+###################################################################################
+# Created by : asquared
+# Description : awesomeness isn't built, it is BORN.
+# File Name :
+# Creation Date :
+# Last Modified Date :
+###################################################################################
+
+Description format: 
+Input: One line description of what comes as input to this file. 
+Output: One line description of what goes out of this file.
+Future: Points of what has to be done next. 
+(Optional) Process: Include this section when we have some major algorithms and complex functions 
+being implemented. Minor explanations can be included in the output section.  
+ 
+Input: 
+
+Output: 
+
+Future: 
+
+Process: 
+
+
+'''
+
+.
+
