@@ -11,4 +11,7 @@ export PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D"
 export CLICOLOR=1
 export GREP_OPTIONS="--color=auto"
 
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
+# For git autocomplete from command line. Download from the following link:
+# https://raw.github.com/git/git/master/contrib/completion/git-completion.bash
+# and save the file with name .git-completion in your home directory
+source ~/.git-completion
