@@ -26,7 +26,6 @@ syntax on
 " set background=dark
 set background=light
 
-set backspace=2 "make backspace work like most other applications. 
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -52,7 +51,16 @@ set hidden             " Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
 set tabstop=4
 set shiftwidth=4
-
+set backspace=2 "make backspace work like most other applications. 
+set autoindent
+set number
+set hlsearch
+set visualbell
+set noerrorbells
+set title
+set nobackup
+set noswapfile
+set pastetoggle=<F2>
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
